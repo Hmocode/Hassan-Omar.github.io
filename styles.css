@@ -1,61 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hassan Omar's Data Analyst Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <h1>Welcome to My Data Analyst Portfolio</h1>
-  </header>
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Hello! I'm Hassan Omar, a junior data analyst with a passion for uncovering actionable insights using tools like Python, SQL, and Tableau. I have experience in using survey data to eliminate academic bias and research data analysis.</p>
-    </section>
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Understanding Cigarette Smoking Behaviors in the UK</h3>
-        <p>Analyzed data to identify predictors of smoking behaviors and delivered actionable insights that contributed to the development of improved smoking prevention strategies.</p>
-      </div>
-      <div class="project">
-        <h3>Effect on N. sativa on Indicators of Stress and Psychomotor Function</h3>
-        <p>Conducted a dissertation project to collect and analyze data on stress levels using statistical software such as SPSS and Excel, and visualized data with Power BI.</p>
-      </div>
-    </section>
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Python</li>
-        <li>SQL</li>
-        <li>Tableau</li>
-        <li>PowerBI</li>
-        <li>Excel</li>
-        <li>Google Sheets</li>
-        <li>Machine Learning</li>
-        <li>Data Visualization</li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:omar.mohamud05@gmail.com">omar.mohamud05@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/hassanomarofficial" target="_blank">Hassan Omar</a></p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2024 Hassan Omar</p>
-  </footer>
-</body>
-</html>
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav ul li a:hover {
+  color: #ffd700;
+}
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+section {
+  margin-bottom: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 10px;
+}
+.project {
+  margin-bottom: 15px;
+  transition: transform 0.3s;
+}
+.project:hover {
+  transform: scale(1.05);
+}
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #333;
+  color: white;
+}
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
